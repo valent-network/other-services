@@ -1,0 +1,5 @@
+FROM postgres:14
+
+# Install dependencies
+RUN apt-get update && \
+    apt-get -y install s3cmd
